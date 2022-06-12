@@ -1,0 +1,16 @@
+.name{
+    background-color: $primary-bg;
+    padding: 5rem;
+    text-align: center;
+    color: $secondary-color;
+    font-size: $terciary-title;
+
+    &__title--primary{
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+
+    &__title--secondary{
+        font-weight: 700;
+    }
+}

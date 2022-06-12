@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+.card, .card-grey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button {
+  text-align: center;
+  border-color: #91918D;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.6rem 4rem;
+  color: #686963;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #FAFAFA;
+}
+
+.card-grey {
+  background-color: #91918D;
+}
+.card-grey .card__text--primary {
+  font-size: 1.5rem;
+  color: #FAFAFA;
+}
+.card-grey .card__text--secondary {
+  color: #FAFAFA;
+}
+
+.card {
+  background-color: #FAFAFA;
+}
+.card__image {
+  max-width: 50rem;
+  padding: 2rem 12rem;
+}
+.card__image--size {
+  max-width: 20rem;
+  padding: 2rem 12rem;
+}
+.card__text--primary {
+  font-size: 1.5rem;
+  color: #686963;
+}
+.card__text--secondary {
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+  padding: 5rem;
+  text-align: center;
+  background-color: #E56353;
+}
+.contact__title--secondary {
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.presentation {
+  background-color: #E56353;
+  padding: 5rem;
+  text-align: center;
+  align-items: center;
+}
+.presentation__title--primary {
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12rem;
+  background-color: #91918D;
+}
+.footer__img {
+  max-width: 10rem;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #FAFAFA;
+}
+.header__img {
+  max-width: 10rem;
+  padding-left: 4rem;
+}
+
+.name {
+  background-color: #E56353;
+  padding: 5rem;
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 2.5rem;
+}
+.name__title--primary {
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.name__title--secondary {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
